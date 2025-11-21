@@ -8,7 +8,7 @@ import Order from './pages/orders/Order'
 import { ToastContainer } from 'react-toastify';
 
 const App = () => {
-  const url ="https://food-delivery-backend-q4o8.onrender.com";
+  const url = import.meta.env.VITE_API_URL;
   return (
     <div>
       <ToastContainer/>
